@@ -11,4 +11,8 @@ fn main() {
     // ❓ Your task: handle Result here with match
     // If Ok(n) → print "You entered n"
     // If Err(e) → print "Invalid input!"
+    match num {
+        Ok(n) => print!("The Output is {}", n),
+        Err(n) => println!("Fatal Error Occured. Probably Cuz u entered something that should be number but is not")
+    }
 }
